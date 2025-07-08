@@ -134,8 +134,6 @@ class DecoratedScene(Scene):
         """ Returns the tool_bar_manager for this scene.
         """
         tbm = ToolBarManager( *self.actions )
-        tbm.image_size = (32, 20)
-        tbm.show_tool_names = False
         return tbm
 
 
